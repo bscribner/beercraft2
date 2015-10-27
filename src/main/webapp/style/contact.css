@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color:rgb(243,243,230);
+	
+}
+
+h1{
+	color:rgb(125,100,95);
+	font-variant:small-caps;
+}
+
+h4{
+	color:rgb(125,100,95);
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:30px;
+}
+
+legend{
+	font-style:italic;
+	font-size:16px;
+}
+
+p{
+	background-color:rgb(243,243,230);
+	font-family:"book antiqua";
+	font-size:16px;
+}
+
+th{
+	color:rgb(100,75,75);
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:30px;	
+}
+
+td{
+	color:rgb(125,100,95);
+	font-size:12px;	
+	font-family:"Arial", cursive, sans-serif;
+}
+
+select{
+	background-color:rgb(243,243,230);
+	border:0;
+	text-align:center;
+	font-size:14px;
+}

@@ -1,0 +1,280 @@
+body{
+	background-color:rgb(243,243,230);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1025px;
+    border: 1px solid;
+    padding: 0px 5px 5px 5px;
+	font-family: Verdana,Arial,sans-serif;
+}
+
+h1{
+	color:rgb(125,100,95);
+	font-variant:small-caps;
+}
+
+h2{
+	font-size:16px;
+}
+
+h4{
+	color:rgb(125,100,95);
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:30px;
+}
+
+legend{
+	font-style:italic;
+	font-size:16px;
+}
+
+p{
+	background-color:rgb(243,243,230);
+	font-family:"book antiqua";
+}
+
+th.shop{
+	color:rgb(100,75,75);
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:30px;	
+}
+
+th.contact{
+	color:rgb(125,100,95);
+	font-size:12px;	
+	font-family:"Arial", cursive, sans-serif;
+}
+
+td.shop{
+	color:rgb(125,100,95);
+	font-size:20px;	
+	font-family:"Arial", cursive, sans-serif;
+}
+
+td.contact{
+	color:rgb(125,100,95);
+	font-size:12px;	
+	font-family:"Arial", cursive, sans-serif;
+}
+
+select{
+	background-color:rgb(243,243,230);
+	border:0;
+	text-align:center;
+	font-size:14px;
+}
+
+.ui-widget-content{
+	background: none;
+}
+
+.ui-tabs-panel{
+	float: left;
+    width: 70%;
+}
+
+.footer{
+    clear: both;
+}
+
+.loginForm{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:250px;
+	border: 1px solid #AAAAAA;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	text-align: center;
+}
+
+.loginForm input{
+   margin: 10px;
+}
+
+.loginForm label{
+   margin: 10px;
+}
+
+.content {
+   padding: .5em;
+   float: left;
+   width: 75%;
+}
+
+.userPanel{
+	border: 1px solid #AAAAAA;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	text-align: center;
+	margin-top: 2em;
+    float: right;
+    width: 20%;
+}
+
+.loginText{
+	width:165px;
+}
+
+form ul {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+form .formLabel{
+   width: 20%;
+   float: left;
+   text-align: right;
+   padding-right: 5px;
+}
+
+form select {
+   width: 30%;
+}
+
+.formlist input {
+   width: 50%;
+}
+
+.formlist textarea {
+   width: 50%;
+}
+
+.userform {
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+/* 	text-align: center; */
+}
+
+.paymentform {
+    margin-left:auto;
+    margin-right:auto;
+    width: 850px;
+/* 	text-align: center; */
+}
+
+.userform .formLabel {
+   width: 25%;
+}
+
+.userform .formlist input {
+   width: 35%;
+}
+
+.userform .form-actions {
+   text-align: center;
+   padding: 0px;
+}
+
+.paymentform .formLabel {
+   width: 25%;
+}
+
+.paymentform .formlist input {
+   width: 25%;
+}
+
+.paymentform .formlist select {
+   width: 20%;
+}
+
+.paymentform .form-actions {
+   text-align: center;
+   padding: 0px;
+}
+
+.beer ul {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+.beer .formLabel {
+   width: 20%;
+   float: left;
+   text-align: right;
+   padding-right: 5px;
+   padding-bottom: 5px;
+}
+
+.beer .formValue  {
+   width: 60%;
+   float: left;
+   padding-bottom: 5px;
+}
+
+form .form-actions {
+   padding-left: 20%;
+}
+
+fieldset{
+   border-radius: 4px 4px 4px 4px;
+}
+
+.main-content {
+   padding: .2em;
+}
+
+.list {
+   width: 100%;
+}
+
+table thead {
+   background: #cccccc;
+   color: #555555;
+   text-decoration: none;
+}
+
+table thead a {
+   color: #555555;
+   text-decoration: none;
+}
+
+table td {
+    border-top: 1px solid #DDDDDD;
+    padding: 3px;
+}
+
+.shop .pagebanner {
+   display: none;
+}
+
+a{
+	color:rgb(70,70,65);
+	font-family:"Arial", sans-serif;
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color:rgb(140,115,110);
+	text-decoration: none;
+}
+a:hover{
+	color:rgb(125,100,95);
+	text-decoration: none;
+}
+a:active{
+	color:rgb(125,100,95);
+	text-decoration: none;
+}
+
+.formlist .validationError {
+    display: inline-block;
+    border: 3px solid #FF0000;
+    background: #FF9999;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+}

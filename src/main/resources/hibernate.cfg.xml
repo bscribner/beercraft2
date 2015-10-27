@@ -1,0 +1,20 @@
+<!-- <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" -->
+<!--      "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> -->
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="com.benscribner.beercraft.model.impl.UserImpl"/>
+        <mapping class="com.benscribner.beercraft.model.impl.PersonImpl"/>
+        <mapping class="com.benscribner.beercraft.model.impl.RoleImpl"/>
+        <mapping class="com.benscribner.beercraft.model.impl.BreweryImpl"/>
+        <mapping class="com.benscribner.beercraft.model.impl.CategoryImpl"/>
+        <mapping class="com.benscribner.beercraft.model.impl.OriginImpl"/>
+        <mapping class="com.benscribner.beercraft.model.impl.BeerImpl"/>
+        <mapping class="com.benscribner.beercraft.model.impl.ConcreteCreditCard"/>
+        <mapping class="com.benscribner.beercraft.model.impl.LineItemObject"/>
+        <mapping class="com.benscribner.beercraft.model.impl.PurchaseOrder"/>
+        <mapping class="com.benscribner.beercraft.model.impl.ShoppingCart"/>
+    </session-factory>
+</hibernate-configuration>
